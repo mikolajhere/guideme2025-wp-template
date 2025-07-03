@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  --font-encode-sans: "Encode Sans", sans-serif;
+  --font-geist-mono: "Geist Mono", monospace;
+  --guide-me-lime: #80b302;
+  --guide-me-dark: #242726;
+  --guide-me-night: #121214;
+  --guide-me-light: #f4f4f4;
+  --guide-me-mid: #4c4c4c;
+  --guide-me-grey: #e8e9ec;
+  --guide-me-citron: #f3ffcd;
+  --guide-me-icon-bg: #efeff0;
+  --guide-me-benefit-text: #757575;
+  --guide-me-border-color: #e2e2e2;
+  --guide-me-footer-gray: #dadbdd;
+  --guide-me-footer-steal: #a8a8a8;
+}
+
+body {
+  font-family: var(--font-encode-sans);
+}
+
+.geist-mono {
+  font-family: var(--font-geist-mono);
+}
+
+.slider-shadow {
+  box-shadow: 0px 32px 128px 0px rgba(128, 179, 2, 0.32);
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--guide-me-lime);
+  width: 48px;
+  height: 8px;
+  border-radius: 4px;
+}
+
+
+blockquote::before {
+  background-image: url(/wp-content/uploads/2025/07/quote.svg);
+}
