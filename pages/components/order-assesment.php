@@ -1,5 +1,5 @@
-<div
-    class="hidden relative isolate flex flex-col overflow-hidden bg-[var(--guide-me-light)]">
+<!-- <div
+    class=" relative isolate flex flex-col overflow-hidden bg-[var(--guide-me-light)]">
     <div
         class="z-10 mx-auto flex w-full max-w-7xl flex-col justify-between gap-2 px-6 py-4 text-sm text-[var(--guide-me-mid)] md:flex-row md:items-center lg:px-8">
         <span>
@@ -39,4 +39,4 @@
             </a>
         </div>
     </div>
-</div>
+</div> -->
